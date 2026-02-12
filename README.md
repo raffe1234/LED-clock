@@ -1,6 +1,6 @@
-# LED Clock (OpenWrt)
+# LED Clock
 
-A tiny shell script that turns LEDs on an OpenWrt device into a “blinking clock” — handy when you don’t want to grab your phone.
+A tiny shell script that turns LEDs on an OpenWrt (or other) device into a “blinking clock” — handy when you don’t want to grab your phone.
 
 This project was originally built for a **D-Link DIR-810L** running **OpenWrt**, using its **Power** and **WAN** LEDs (green/orange).  
 It should be adaptable to other OpenWrt routers and Linux devices that expose LEDs via `/sys/class/leds/` or similar.
