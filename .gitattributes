@@ -1,0 +1,12 @@
+# Normalize text files
+* text=auto
+
+# Enforce LF where it matters
+*.sh  text eol=lf
+*.md  text eol=lf
+
+# Keep CRLF for Windows scripts
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
