@@ -139,7 +139,7 @@ DEBUG_IS=ON
 
 - The script assumes it can write to LED brightness files (run as root on OpenWrt).
 - Timing is “good enough” for human reading; it synchronizes to the next `:00` or `:30` based on epoch seconds.
-- Your device must have at least **two LEDs** you can control for best readability (hours + minutes).
+- Your device must have at least **two LEDs** you can control for best readability (hours + minutes). If you only have one LED, you need to edit the code.
 
 ## License
 
